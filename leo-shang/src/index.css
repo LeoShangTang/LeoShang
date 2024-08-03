@@ -134,3 +134,9 @@ input[type="color"] {
   font-size: 40px;
   padding-bottom: 10px;
 }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
