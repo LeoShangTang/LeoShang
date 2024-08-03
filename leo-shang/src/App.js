@@ -1,8 +1,10 @@
 import Canvas1 from "./components/Canvas1";
+import Window1 from "./components/Window1/Window1";
 
 const App = () => {
   return(
-    <Canvas1 />
+    <Window1 />
+    // <Canvas1 />
   )
 }
 
