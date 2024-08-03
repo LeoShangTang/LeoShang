@@ -1,5 +1,5 @@
 import Window1 from "./components/Window1/Window1";
-import bg1 from "./media/BG1.jpg"
+import bg2 from "./media/BG2.jpg"
 import Window2 from "./components/Window2/Window2";
 
 const App = () => {
@@ -9,8 +9,8 @@ const App = () => {
     <Window1 />
     <Window2 />
     <div 
-      className="absolute inset-0 z-[-1] bg-cover bg-center"
-      style={{ backgroundImage: `url(${bg1})` }}
+      className="absolute inset-0 z-[-1] bg-cover bg-center opacity-95"
+      style={{ backgroundImage: `url(${bg2})` }}
     />
   </div>
     // <Canvas1 />
