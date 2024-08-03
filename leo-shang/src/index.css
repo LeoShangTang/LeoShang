@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Digifit';
+  src: url('./fonts/DIGIFIT.TTF') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -135,8 +146,3 @@ input[type="color"] {
   padding-bottom: 10px;
 }
 
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
