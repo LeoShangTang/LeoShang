@@ -4,12 +4,12 @@ const Window1 = () => {
         2xl:w-[642px] 2xl:h-[434px] 
         xl:w-[481.5px] xl:h-[323.5px]
         lg:w-[337px] lg:h-[226.5px]
-        md:w-[337px] md:h-[226.5px]"> 
+        md:w-[235.9px] md:h-[158.55px]"> 
             <div className='font-digifit 
                             2xl:text-[190px]
                             xl:text-[142px]
                             lg:text-[100px]
-                            md:text-[190px]'>
+                            md:text-[70px]'>
                 Leo
             </div>
         </div>
