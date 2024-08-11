@@ -1,7 +1,7 @@
 const Intro = () => {
     return (
-        <div className="flex flex-col justify-center items-center bg-white bg-opacity-80 size-full"> 
-            <div className='font-digifit
+        <div className="flex flex-col justify-center items-center bg-white bg-opacity-85 size-full"> 
+            <div className='font-VCR
                             text-[0.6rem] 
                             2xl:text-[2rem]
                             xl:text-[1.5rem]
@@ -20,7 +20,7 @@ const Intro = () => {
                             '>
                 Leo Shang
             </div>
-            <div className='font-digifit
+            <div className='font-VCR
                             w-[70%] 
                             text-center
                             2xl:text-[2rem]

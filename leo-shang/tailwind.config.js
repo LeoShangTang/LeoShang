@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         digifit: ['Digifit', 'sans-serif'],
+        VCR: ['VCR', 'sans-serif']
       }
     },
   },

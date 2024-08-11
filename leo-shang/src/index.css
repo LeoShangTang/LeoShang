@@ -13,6 +13,11 @@ html, body, #root {
   src: url('./fonts/DIGIFIT.TTF') format('truetype');
 }
 
+@font-face {
+  font-family: 'VCR';
+  src: url('./fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
