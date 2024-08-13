@@ -8,6 +8,15 @@ html, body, #root {
   padding: 0;
 }
 
+
+.reg-text-responsive {
+  @apply text-[1rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.6rem] md:text-[1.4rem] sm:text-[1.2rem];
+}
+
+.banner-responsive {
+  @apply text-[0.8rem] 2xl:text-[1.6rem] xl:text-[1.4rem] lg:text-[1.2rem] md:text-[1.2rem] sm:text-[1rem];
+}
+
 @font-face {
   font-family: 'Digifit';
   src: url('./fonts/DIGIFIT.TTF') format('truetype');
