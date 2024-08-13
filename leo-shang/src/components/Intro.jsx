@@ -1,6 +1,6 @@
 const Intro = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-white bg-opacity-85 w-screen h-screen">
+    <div className="flex flex-col static justify-center items-center bg-white bg-opacity-85 w-screen h-screen">
       <div className="reg-text-responsive font-VCR">Hi, I am</div>
       <div className="font-digifit text-center text-[4rem] 2xl:text-[12rem] xl:text-[10rem] lg:text-[8rem] md:text-[6rem] sm:text-[4rem]">
         Leo Shang
