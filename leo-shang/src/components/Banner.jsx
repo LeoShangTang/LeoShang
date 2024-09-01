@@ -1,44 +1,40 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
+import "./Banner.css";
 
 const Banner = () => {
+  const [position, setPosition] = useState(window.scrollY);
   const [visible, setVisible] = useState(true);
   const lastScrollY = useRef(window.scrollY);
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY.current) {
-        setVisible(false);
-      } else {
-        setVisible(true);
-      }
-
-      lastScrollY.current = currentScrollY;
+      let moving = window.scrollY;
+      setVisible(position > moving);
+      setPosition(moving);
     };
     window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
+
+  const isVisible = visible ? "visible" : "hide";
 
   return (
     <div
-      className={`fixed top-10 left-0 w-full transition-transform duration-300 ${
-        visible ? "translate-y-0" : "-translate-y-[100px]"
-      }`}
+      className={`${isVisible} banner-responsive fixed left-0 w-full h-[55px] text-black flex items-center justify-center z-1`}
     >
-      <div className="banner-responsive h-[55px] text-black flex items-center justify-center z-10">
-        <div className="flex justify-center px-2 items-center bg-white opacity-90 rounded-full h-full min-w-fit whitespace-nowrap lg:w-auto">
-          <div className="font-VCR px-2 md:px-4">Home</div>
-          <div className="font-VCR px-2 md:px-4">About</div>
-          <div className="font-VCR px-2 md:px-4">CS Portfolio</div>
-          <div className="font-VCR px-2 md:px-4">Graphics Portfolio</div>
-          <div className="font-VCR px-2 md:px-4">Contact Me</div>
-        </div>
+      <div className="flex justify-center px-2 items-center bg-white opacity-90 rounded-full h-full min-w-fit whitespace-nowrap lg:w-auto">
+        <div className="font-VCR px-2 md:px-4">Home</div>
+        <div className="font-VCR px-2 md:px-4">About</div>
+        <div className="font-VCR px-2 md:px-4">CS Portfolio</div>
+        <div className="font-VCR px-2 md:px-4">Graphics Portfolio</div>
+        <div className="font-VCR px-2 md:px-4">Contact Me</div>
       </div>
     </div>
   );
 };
 
 export default Banner;
+// ${visible ? "top-10 opacity-100 transition-all" : "top-[-60px] opacity-0 transition-all"}

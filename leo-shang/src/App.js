@@ -1,20 +1,20 @@
-import Window1 from "./components/Intro";
+import Intro from "./components/Intro";
 import bg2 from "./media/BG2.jpg"
 import bg3 from "./media/BG3.gif"
 import Banner from "./components/Banner";
+import AboutMe from "./components/AboutMe";
+
 const App = () => {
-
+  // bg-white bg-opacity-85
   return (
-    <div className="flex flex-col relative h-auto w-screen items-center justify-center overflow-y-scroll">
+    <div className="flex flex-col relative w-screen items-center justify-center">
         <Banner />
-        <div>
-
-        <Window1 />
-        <Window1 />
-        </div>
+        <Intro />
+        <AboutMe />
+        <div className="fixed inset-0 z-[-1] bg-cover bg-center bg-white bg-opacity-75"/>
       <div
-        className="fixed inset-0 z-[-1] bg-cover bg-center"
-        style={{ backgroundImage: `url(${bg3})` }}
+        className="fixed inset-0 z-[-2] bg-cover bg-center opacity-95"
+        style={{ backgroundImage: `url(${bg2})` }}
       />
     </div>
     // <Canvas1 />
