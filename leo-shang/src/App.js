@@ -11,10 +11,10 @@ const App = () => {
         <Banner />
         <Intro />
         <AboutMe />
-        <div className="fixed inset-0 z-[-1] bg-cover bg-center bg-white bg-opacity-85"/>
+        <div className="fixed inset-0 z-[-1] bg-cover bg-center bg-white bg-opacity-75"/>
       <div
         className="fixed inset-0 z-[-2] bg-cover bg-center opacity-95"
-        style={{ backgroundImage: `url(${bg3})` }}
+        style={{ backgroundImage: `url(${bg2})` }}
       />
     </div>
     // <Canvas1 />

@@ -13,6 +13,10 @@ html, body, #root {
   @apply font-digifit text-[4rem] 2xl:text-[12rem] xl:text-[10rem] lg:text-[8rem] md:text-[6rem] sm:text-[4rem];
 }
 
+.sub-title-text-responsive {
+  @apply font-digifit text-[4rem] 2xl:text-[10rem] xl:text-[8rem] lg:text-[6rem] md:text-[4rem] sm:text-[2rem];
+}
+
 .reg-text-responsive {
   @apply font-VCR text-[1rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.6rem] md:text-[1.4rem] sm:text-[1.2rem];
 }
