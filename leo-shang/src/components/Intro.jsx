@@ -1,6 +1,9 @@
 const Intro = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen">
+    <section
+      id="Home"
+      className="flex flex-col justify-center items-center w-screen h-screen"
+    >
       <div className="reg-text-responsive">Hi, I'm</div>
       <div className="title-text-responsive text-center my-[40px] lg:my-[95px] md:my-[72px] sm:my-[54px]">
         Leo Shang
@@ -9,7 +12,7 @@ const Intro = () => {
         A 3rd year computer science student at the University of British
         Columbia and aspiring UI/UX designer
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,10 @@ import LeoPFP from "./../media/LeoShangPFP.webp";
 
 const AboutMe = () => {
   return (
-    <div className="h-screen w-screen flex flex-col items-center">
+    <section
+      id="About"
+      className="h-screen w-screen flex flex-col items-center justify-center"
+    >
       <div className="title-text-responsive text-center mb-8">About Me</div>
       <div className="flex flex-col sm:flex-row justify-center items-center h-fit gap-8 px-4">
         <div className="size-[213px] lg:size-[508px] md:size-[380px] sm:size-[285px]">
@@ -20,7 +23,7 @@ const AboutMe = () => {
           social media posts and leading their website redesign.
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
