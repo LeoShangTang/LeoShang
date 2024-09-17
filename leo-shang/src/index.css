@@ -10,20 +10,17 @@ html, body, #root {
 }
 
 .title-text-responsive {
-  @apply font-digifit text-[64px] lg:text-[150px] md:text-[110px];
+  @apply font-digifit text-[64px] lg:text-[150px] md:text-[110px] sm:text-[82px];
 }
 
 .sub-title-text-responsive {
-  @apply font-digifit text-[4rem] 2xl:text-[10rem] xl:text-[8rem] lg:text-[6rem] md:text-[4rem] sm:text-[2rem];
+  @apply font-digifit text-[34px] lg:text-[120px] md:text-[90px] sm:text-[52px];
 }
 
 .reg-text-responsive {
-  @apply font-IBMRegular text-[1rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.6rem] md:text-[1.4rem] sm:text-[1.2rem];
+  @apply font-IBMRegular text-[12px] lg:text-[28px] md:text-[21px] sm:text-[16px];
 }
 
-.banner-responsive {
-  @apply text-[0.8rem] 2xl:text-[1.4rem] xl:text-[1.3rem] lg:text-[1.2rem] md:text-[1.1rem] sm:text-[1rem];
-}
 
 @font-face {
   font-family: 'Digifit';
