@@ -10,7 +10,7 @@ html, body, #root {
 }
 
 .title-text-responsive {
-  @apply font-digifit text-[4rem] 2xl:text-[12rem] xl:text-[10rem] lg:text-[8rem] md:text-[6rem] sm:text-[4rem];
+  @apply font-digifit text-[64px] lg:text-[150px] md:text-[110px];
 }
 
 .sub-title-text-responsive {
@@ -18,7 +18,7 @@ html, body, #root {
 }
 
 .reg-text-responsive {
-  @apply font-VCR text-[1rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.6rem] md:text-[1.4rem] sm:text-[1.2rem];
+  @apply font-IBMRegular text-[1rem] 2xl:text-[2rem] xl:text-[1.8rem] lg:text-[1.6rem] md:text-[1.4rem] sm:text-[1.2rem];
 }
 
 .banner-responsive {
@@ -34,6 +34,17 @@ html, body, #root {
   font-family: 'VCR';
   src: url('./fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'IBMMedium';
+  src: url('./fonts/IBMPlexMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMRegular';
+  src: url('./fonts/IBMPlexMono-Regular.ttf') format('truetype');
+}
+
 
 * {
   margin: 0;
