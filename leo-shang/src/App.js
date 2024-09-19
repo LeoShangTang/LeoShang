@@ -8,7 +8,7 @@ import CSProjects from "./components/CSProjects";
 const App = () => {
   // bg-white bg-opacity-85
   return (
-    <div className="flex flex-col relative w-screen items-center justify-center">
+    <div className="flex flex-col relative items-center justify-center">
         <Banner />
         <Intro />
         <AboutMe />

@@ -27,7 +27,7 @@ const Banner = () => {
     <div
       className={`${isVisible} banner-responsive fixed left-0 w-full lg:h-[55px] h-[47px] text-black flex items-center justify-center z-1`}
     >
-      <nav className="flex justify-center px-2 items-center bg-white opacity-90 rounded-full h-full min-w-fit whitespace-nowrap lg:text-[20px] text-[17px] lg:w-auto">
+      <nav className="flex justify-center px-2 items-center bg-white opacity-80 rounded-full h-full min-w-fit whitespace-nowrap lg:text-[20px] text-[17px] lg:w-auto">
         <a href="#Home" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           Home
         </a>

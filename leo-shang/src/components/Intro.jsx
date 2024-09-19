@@ -2,7 +2,7 @@ const Intro = () => {
   return (
     <section
       id="Home"
-      className="flex flex-col justify-center items-center w-screen h-screen"
+      className="flex flex-col justify-center items-center w-full h-screen lg:min-h-[700px]"
     >
       <div className="reg-text-responsive">Hi, I'm</div>
       <div className="title-text-responsive text-center my-[40px] lg:my-[95px] md:my-[72px] sm:my-[54px]">

@@ -6,7 +6,7 @@ const CSProjects = () => {
   return (
     <section
       id="CSProjects"
-      className="h-fit min-h-screen w-screen flex flex-col items-center justify-center mt-32"
+      className="h-fit min-h-screen w-full flex flex-col items-center justify-center mt-32 pt-20"
     >
       <div className="sub-title-text-responsive text-center mb-8">
         CS Projects
@@ -14,7 +14,7 @@ const CSProjects = () => {
       {projects.map((project) => {
         return (
           <ProjectCard
-            key={project.name}
+            key={project.id}
             name={project.name}
             timestamp={project.timestamp}
             images={project.images}

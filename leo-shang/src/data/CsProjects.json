@@ -1,6 +1,7 @@
 {
     "CSProjects" :[
         {
+            "id": 1,
             "name": "RateMyStudySpot",
             "timestamp": "May 2024 - Present",
             "images": ["/ProjectImages/RateMyStudySpot/RateMyStudySpotMockUp.png"],
@@ -8,6 +9,7 @@
             "tags": ["TypeScript", "React", "PostGresSQL", "Figma", "Next.js", "Tailwind"]
         },
         {
+            "id": 2,
             "name": "PartyTime",
             "timestamp": "May 2024 - Present",
             "images": ["/ProjectImages/RateMyStudySpot/PartyTimeMockUp.png"],

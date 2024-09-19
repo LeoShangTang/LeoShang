@@ -22,6 +22,24 @@ html, body, #root {
   @apply font-IBMRegular text-[12px] lg:text-[28px] md:text-[21px] sm:text-[16px];
 }
 
+::-webkit-scrollbar {
+  width: 14px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a5a5a5;
+  border-radius: 20px; /* Adjust the border-radius */
+  border: 2px solid #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8d8d8d;
+}
 
 @font-face {
   font-family: 'Digifit';
