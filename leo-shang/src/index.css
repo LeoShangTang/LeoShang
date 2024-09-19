@@ -43,27 +43,27 @@ html, body, #root {
 
 @font-face {
   font-family: 'Digifit';
-  src: url('./fonts/DIGIFIT.TTF') format('truetype');
+  src: url('./assets/fonts/DIGIFIT.TTF') format('truetype');
 }
 
 @font-face {
   font-family: 'VCR';
-  src: url('./fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+  src: url('./assets/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'IBMMedium';
-  src: url('./fonts/IBMPlexMono-Medium.ttf') format('truetype');
+  src: url('./assets/fonts/IBMPlexMono-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'IBMRegular';
-  src: url('./fonts/IBMPlexMono-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/IBMPlexMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'IBMBold';
-  src: url('./fonts/IBMPlexMono-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/IBMPlexMono-Bold.ttf') format('truetype');
 }
 
 

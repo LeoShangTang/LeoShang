@@ -1,4 +1,4 @@
-import LeoPFP from "./../media/LeoShangPFP.webp";
+import LeoPFP from "./../../assets/media/LeoShangPFP.webp";
 // TODO: FIX ABOUT ME IMAGE Z INDEX
 const AboutMe = () => {
   return (

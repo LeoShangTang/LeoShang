@@ -1,0 +1,35 @@
+{
+    "CSProjects" :[
+        {
+            "id": 2,
+            "name": "BOLT UBC",
+            "timestamp": "Sep. 2024 - Present",
+            "images": ["/ProjectImages/RateMyStudySpot/BOLTUbcMockUp.png"],
+            "projectType": "UI/UX + Front-end",
+            "tags": ["TypeScript", "React", "CSS", "Figma", "Club Work"],
+            "roles":["Lead UI Designer", "Front End Dev"],
+            "predesignDescription": ""
+        },
+        {
+            "id": 2,
+            "name": "RateMyStudySpot",
+            "timestamp": "May 2024 - Present",
+            "images": ["/ProjectImages/RateMyStudySpot/RateMyStudySpotMockUp.png"],
+            "projectType": "UI/UX + Full Stack",
+            "tags": ["TypeScript", "React", "PostGresSQL", "Figma", "Next.js", "Tailwind", "Personal Work"],
+            "roles":["Lead UI Designer", "Front End Dev", "Back End DB Design"],
+            "predesignDescription": "Before designing, we needed to gain an understanding of the potential users for the application, as well as their user goals. The target users we converged on were university students, including both commuters and students living on campus. At the time of starting this project, our team consisted of two students, meaning that we already had some context of the student mindset going into this project. However, it was still essential to discover the thoughts and contexts of others, so we reached out to friends at UBC and other schools to gather diverse insights."
+            
+        },
+        {
+            "id": 3,
+            "name": "PartyTime",
+            "timestamp": "May 2024 - Present",
+            "images": ["/ProjectImages/RateMyStudySpot/PartyTimeMockUp.png"],
+            "projectType": "UI/UX + Front-end",
+            "tags": ["TypeScript", "React", "Material UI", "CSS", "Personal Work"],
+            "roles":["UI Design", "Front End Dev"],
+            "predesignDescription": ""
+        }
+    ]
+}

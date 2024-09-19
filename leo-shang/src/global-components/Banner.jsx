@@ -1,10 +1,9 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import "./Banner.css";
 
 const Banner = () => {
   const [position, setPosition] = useState(window.scrollY);
   const [visible, setVisible] = useState(true);
-  const lastScrollY = useRef(window.scrollY);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,6 +45,7 @@ const Banner = () => {
         <a
           href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
           target="_blank"
+          rel="noopener noreferrer"
           className="font-IBMMedium px-2 lg:px-6 md:px-4"
         >
           Resume

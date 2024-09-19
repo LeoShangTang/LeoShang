@@ -1,4 +1,4 @@
-import CsProjects from "./../data/CsProjects.json";
+import CsProjects from "../../assets/CsProjects/CsProjects.json";
 import ProjectCard from "./ProjectCard";
 
 const CSProjects = () => {
