@@ -43,6 +43,11 @@ html, body, #root {
   src: url('./fonts/IBMPlexMono-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'IBMBold';
+  src: url('./fonts/IBMPlexMono-Bold.ttf') format('truetype');
+}
+
 
 * {
   margin: 0;
@@ -67,12 +72,12 @@ html, body, #root {
   border: 3px solid white;
 }
 
-img {
+/* img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .nav div,
 button,

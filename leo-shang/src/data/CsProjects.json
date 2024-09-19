@@ -1,0 +1,18 @@
+{
+    "CSProjects" :[
+        {
+            "name": "RateMyStudySpot",
+            "timestamp": "May 2024 - Present",
+            "images": ["/ProjectImages/RateMyStudySpot/RateMyStudySpotMockUp.png"],
+            "projectType": "UI/UX + Full Stack",
+            "tags": ["TypeScript", "React", "PostGresSQL", "Figma", "Next.js", "Tailwind"]
+        },
+        {
+            "name": "PartyTime",
+            "timestamp": "May 2024 - Present",
+            "images": ["/ProjectImages/RateMyStudySpot/PartyTimeMockUp.png"],
+            "projectType": "UI/UX + Front-end",
+            "tags": ["TypeScript", "React", "Material UI", "CSS"]
+        }
+    ]
+}

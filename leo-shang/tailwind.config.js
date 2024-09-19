@@ -10,6 +10,7 @@ module.exports = {
         VCR: ['VCR', 'sans-serif'],
         IBMRegular: ['IBMRegular', 'sans-serif'],
         IBMMedium: ['IBMMedium', 'sans-serif'],
+        IBMBold:['IBMBold', 'sans-serif'],
       }
     },
   },
