@@ -5,12 +5,10 @@ const CSProjects = () => {
   const projects = CsProjects.CSProjects;
   return (
     <section
-      id="CSProjects"
+      id="CSWork"
       className="h-fit min-h-screen w-full flex flex-col items-center justify-center mt-32 pt-20"
     >
-      <div className="sub-title-text-responsive text-center mb-8">
-        CS Projects
-      </div>
+      <div className="sub-title-text-responsive text-center mb-8">CS Work</div>
       {projects.map((project) => {
         return (
           <ProjectCard

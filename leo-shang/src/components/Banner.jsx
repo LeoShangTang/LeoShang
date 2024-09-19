@@ -34,14 +34,21 @@ const Banner = () => {
         <a href="#About" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           About
         </a>
-        <a href="#CSProjects" className="font-IBMMedium px-2 lg:px-6 md:px-4">
-          CS Projects
+        <a href="#CSWork" className="font-IBMMedium px-2 lg:px-6 md:px-4">
+          CS Work
         </a>
         <a href="#DesignWork" className="font-IBMMedium px-2 lg:px-6 md:px-4">
-          Design Work
+          Design Lab
         </a>
         <a href="#Contact" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           Contact
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"
+          target="_blank"
+          className="font-IBMMedium px-2 lg:px-6 md:px-4"
+        >
+          Resume
         </a>
       </nav>
     </div>
