@@ -60,10 +60,12 @@ const CSProject = () => {
         <Loading />
       ) : (
         <div
-          className="flex flex-col relative h-fit justify-center bg-white bg-opacity-[75%]
+          className="flex flex-col relative h-fit justify-center 
          my-[38px] lg:my-[90px] md:my-[68px] sm:my-[51px]
          p-[13px] lg:p-[30px] md:p-[23px] sm:p-[17px]
          w-[422px] lg:w-[1000px] md:w-[750px] sm:w-[563px]
+         sm:bg-white sm:bg-opacity-[75%]
+         bg-none
          rounded-[20px] "
         >
           <div
