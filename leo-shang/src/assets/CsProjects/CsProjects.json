@@ -3,33 +3,68 @@
         {
             "id": 1,
             "name": "BOLT UBC",
+            "isPortfolioDone": true,
             "timestamp": "Sep. 2024 - Present",
-            "images": ["/ProjectImages/BOLTUbc/BOLTUbcMockUp.png"],
+            "images": ["/ProjectImages/BOLTUbc/BOLTUbcMockUp.png", "/ProjectImages/BOLTUbc/BOLTUbc1.png", "/ProjectImages/BOLTUbc/BOLTUbc2.png"],
             "projectType": "UI/UX + Front-end",
             "tags": ["TypeScript", "React", "CSS", "Figma", "Club Work"],
+            "status": "In-progress",
             "roles":["Lead UI Designer", "Front End Dev"],
-            "predesignDescription": ""
+            "predesignDescription": "For this project, I led the comprehensive redesign of the BOLT UBC website. This endeavor required a detailed evaluation of the existing site’s user interface (UI) and user experience (UX) design. To ensure a user-centered approach, I conducted in-depth research into the current state of the site and its usability, focusing on understanding the diverse needs and preferences of the user base. Our primary user groups were identified as non-club member UBC students, existing club members, and club sponsors. This research was critical in guiding the design process, ensuring that the new website would effectively meet the needs of both these groups by enhancing usability, accessibility, and overall user satisfaction.",
+            "userGoals": [{
+                "title": "Enhanced Navigation and Usability",
+                "goal": "Users need to easily find information about BOLT UBC events, membership, contact info, and club activities",
+                "resolve": "Implement a clear banner to navigate users while keeping a simple user interface to reduce elements. Additionally, use Bolt's signature colors to emphasize important actions like becoming a member"
+                },
+                {
+                "title": "Mobile-Friendly Experience",
+                "goal": "Users expect a seamless experience on mobile devices.",
+                "resolve": "The existing website faced significant issues with responsiveness due to its design complexities. To address this, the website was simplified to enhance its adaptability across various platforms, ensuring a smoother and more consistent user experience."
+                }]  
         },
         {
             "id": 2,
             "name": "RateMyStudySpot",
+            "isPortfolioDone": true,
             "timestamp": "May 2024 - Present",
-            "images": ["/ProjectImages/RateMyStudySpot/RateMyStudySpotMockUp.png", "/ProjectImages/RateMyStudySpot/RateMyStudySpot1.png"],
+            "images": ["/ProjectImages/RateMyStudySpot/RateMyStudySpotMockUp.png", "/ProjectImages/RateMyStudySpot/RateMyStudySpot1.png" , "/ProjectImages/RateMyStudySpot/RateMyStudySpot2.png"],
             "projectType": "UI/UX + Full Stack",
+            "status": "In-progress",
             "tags": ["TypeScript", "React", "PostGresSQL", "Figma", "Next.js", "Tailwind", "Personal Work"],
             "roles":["Lead UI Designer", "Front End Dev", "Back End DB Design"],
-            "predesignDescription": "Before designing, we needed to gain an understanding of the potential users for the application, as well as their user goals. The target users we converged on were university students, including both commuters and students living on campus. At the time of starting this project, our team consisted of two students, meaning that we already had some context of the student mindset going into this project. However, it was still essential to discover the thoughts and contexts of others, so we reached out to friends at UBC and other schools to gather diverse insights."
-            
+            "predesignDescription": "Before designing, we needed to gain an understanding of the potential users for the application, as well as their user goals. The target users we converged on were university students, including both commuters and students living on campus. At the time of starting this project, our team consisted of two students, meaning that we already had some context of the student mindset going into this project. However, it was still essential to discover the thoughts and contexts of others, so we reached out to friends at UBC and other schools to gather diverse insights.",
+            "userGoals": [{
+                "title": "Efficiency in Study Space Selection",
+                "goal": "Students want to quickly and easily find available and comfortable study spaces that match their preferences, especially during busy periods like exams.",
+                "resolve": "We aimed to implement a user-friendly interface that allows users to search, filter, and view study spaces based on real-time availability, seating options, noise levels, and proximity to facilities like power outlets or cafés."
+                },
+                {
+                "title": "Sharing Personal Experiences",
+                "goal": "Students want to share their personal experiences of different study spots, including ambiance, availability of resources, and overall suitability for studying.",
+                "resolve": "Implement a feature that allows users to write and publish detailed reviews and experiences about study spots."
+                }]  
         },
         {
             "id": 3,
             "name": "PartyTime",
+            "isPortfolioDone": false,
             "timestamp": "May 2024 - Present",
             "images": ["/ProjectImages/PartyTime/PartyTimeMockUp.png"],
             "projectType": "UI/UX + Front-end",
             "tags": ["TypeScript", "React", "Material UI", "CSS", "Personal Work"],
+            "status": "Finished",
             "roles":["UI Design", "Front End Dev"],
-            "predesignDescription": ""
+            "predesignDescription": "UNDER CONSTRUCTION",
+            "userGoals": [{
+                "title": "UNDER CONSTRUCTION",
+                "goal": "",
+                "resolve": ""
+                },
+                {
+                "title": "UNDER CONSTRUCTION",
+                "goal": "",
+                "resolve": ""
+                }]  
         }
     ]
 }
