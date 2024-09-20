@@ -44,6 +44,7 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
 
         <button
           className="flex justify-center items-center font-IBMRegular border-none bg-black text-white ml-0 rounded-[10px]
+                    min-w-fit
                      w-[65px] h-[20px] lg:w-[155px] lg:h-[45px] md:w-[116px] md:h-[34px] sm:w-[87px] sm:h-[26px]
                      text-[8px] lg:text-[18px] md:text-[13px] sm:text-[10px]"
           onClick={() => {
