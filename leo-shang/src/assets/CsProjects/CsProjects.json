@@ -53,7 +53,7 @@
             "projectType": "Front-end",
             "tags": ["TypeScript", "React", "Material UI", "CSS"],
             "status": "Finished",
-            "roles":["UI Design", "Front End Dev"],
+            "roles":["Front End Dev"],
             "predesignDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
         }
     ]
