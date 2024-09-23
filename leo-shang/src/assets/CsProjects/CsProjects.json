@@ -10,7 +10,7 @@
             "tags": ["TypeScript", "React", "CSS", "Figma"],
             "status": "In-progress",
             "roles":["Lead UI Designer", "Front End Dev"],
-            "predesignDescription": "For this project, I led the comprehensive redesign of the BOLT UBC website. This endeavor required a detailed evaluation of the existing site’s user interface (UI) and user experience (UX) design. To ensure a user-centered approach, I conducted in-depth research into the current state of the site and its usability, focusing on understanding the diverse needs and preferences of the user base. Our primary user groups were identified as non-club member UBC students, existing club members, and club sponsors. This research was critical in guiding the design process, ensuring that the new website would effectively meet the needs of both these groups by enhancing usability, accessibility, and overall user satisfaction.",
+            "predesignDescription": "For this project, I led the comprehensive redesign of the BOLT UBC website. This endeavor required a detailed evaluation of the existing site’s user interface and user experience design. To ensure a user-centered approach, I conducted in-depth research into the current state of the site and its usability, focusing on understanding the diverse needs and preferences of the user base. Our primary user groups were identified as non-club member UBC students, existing club members, and club sponsors. This research was critical in guiding the design process, ensuring that the new website would effectively meet the needs of both these groups by enhancing usability, accessibility, and overall user satisfaction.",
             "userGoals": [{
                 "title": "Enhanced Navigation and Usability",
                 "goal": "Users need to easily find information about BOLT UBC events, membership, contact info, and club activities",
@@ -47,24 +47,14 @@
         {
             "id": 3,
             "name": "PartyTime",
-            "isPortfolioDone": false,
-            "timestamp": "May 2024 - Present",
-            "images": ["/ProjectImages/PartyTime/PartyTimeMockUp.png"],
-            "projectType": "UI/UX + Front-end",
+            "isPortfolioDone": true,
+            "timestamp": "July 2023 - Aug. 2023",
+            "images": ["/ProjectImages/PartyTime/PartyTimeMockUp.png", "/ProjectImages/PartyTime/PartyTime1.png", "/ProjectImages/PartyTime/PartyTime2.png"],
+            "projectType": "Front-end",
             "tags": ["TypeScript", "React", "Material UI", "CSS"],
             "status": "Finished",
             "roles":["UI Design", "Front End Dev"],
-            "predesignDescription": "UNDER CONSTRUCTION",
-            "userGoals": [{
-                "title": "UNDER CONSTRUCTION",
-                "goal": "",
-                "resolve": ""
-                },
-                {
-                "title": "UNDER CONSTRUCTION",
-                "goal": "",
-                "resolve": ""
-                }]  
+            "predesignDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
         }
     ]
 }

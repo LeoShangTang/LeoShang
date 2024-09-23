@@ -2,6 +2,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import CsProjects from "./../../assets/CsProjects/CsProjects.json";
 import { useEffect, useState } from "react";
 import Loading from "../../global-components/Loading";
+import RolesStatusText from "./RolesStatusText";
+import PredesignSection from "./PredesignSection";
+import UserGoalsSection from "./UserGoalsSection";
+import PrototypingSection from "./PrototypingSection";
 
 const CSProject = () => {
   const { name } = useParams();
@@ -92,109 +96,23 @@ const CSProject = () => {
             src={project.images[1]}
             alt={`${project.name} Image 1`}
           />
-
-          <section
-            className="flex flex-row justify-between w-full 
-      mb-[38px] lg:mb-[90px] md:mb-[68px] sm:mb-[51px]"
-          >
-            <div className="flex flex-col w-fit ml-[15px]">
-              <div
-                className="font-IBMMedium
-           text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]"
-              >
-                Roles
-              </div>
-              <ul className="list-disc pl-5">
-                {project.roles.map((role) => (
-                  <li
-                    className="font-IBMRegular
-              text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-                  >{`${role}`}</li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className="font-IBMMedium text-[#000000] mr-[15px]
-        text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-            >{`Status: ${project.status}`}</div>
-          </section>
-
-          <section
-            className="h-fit mx-[15px]
-      mb-[38px] lg:mb-[90px] md:mb-[68px] sm:mb-[51px]"
-            id="Process"
-          >
-            <div
-              className="font-IBMMedium 
-        text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]
-        mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]"
-            >
-              Predesign
-            </div>
-            <div
-              className="font-IBMRegular
-         text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-            >
-              {project.predesignDescription}
-            </div>
-          </section>
-
-          <section
-            className="h-fit mx-[15px]
-      mb-[38px] lg:mb-[90px] md:mb-[68px] sm:mb-[51px]"
-          >
-            <div
-              className="font-IBMMedium
-          mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]
-        text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]"
-            >
-              User Goals
-            </div>
-            <div
-              className="font-IBMRegular 
-         text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-            >
-              {project.userGoals.map((userGoal) => (
-                <div className="mb-[30px]">
-                  <div
-                    className="font-IBMMedium
-               text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-                  >
-                    {userGoal.title}
-                  </div>
-                  <ul className="list-disc pl-5">
-                    <li
-                      className="font-IBMRegular
-                 text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-                    >
-                      {`Goal: ${userGoal.goal}`}
-                    </li>
-                    <li
-                      className="font-IBMRegular  
-                text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-                    >
-                      {`Resolve: ${userGoal.resolve}`}
-                    </li>
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section id="Prototypes" className="flex flex-col justify-center">
-            <div
-              className="font-IBMMedium
-          mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]
-        text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]"
-            >
-              Prototyping
-            </div>
-            <img
-              className=""
-              src={project.images[2]}
-              alt={`${project.name} Prototype`}
+          <RolesStatusText roles={project.roles} status={project.status} />
+          {project.predesignDescription && (
+            <PredesignSection
+              predesignDescription={project.predesignDescription}
             />
-          </section>
+          )}
+
+          {project.userGoals && (
+            <UserGoalsSection userGoals={project.userGoals} />
+          )}
+
+          {project.predesignDescription && (
+            <PrototypingSection
+              name={project.name}
+              prototypeImage={project.images[2]}
+            />
+          )}
         </div>
       )}
     </>
