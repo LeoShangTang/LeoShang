@@ -10,14 +10,14 @@ import PrototypingSection from "./PrototypingSection";
 const CSProject = () => {
   const { name } = useParams();
   const navigate = useNavigate();
-  const [showLoader, setShowLoader] = useState(true);
+  // const [showLoader, setShowLoader] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowLoader(false);
-    }, 500);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowLoader(false);
+  //   }, 500);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   useEffect(() => {
     window.scrollTo({
@@ -47,7 +47,7 @@ const CSProject = () => {
             setTimeout(() => {
               const element = document.getElementById("CSWork");
               if (element) {
-                element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the section
+                element.scrollIntoView({ behavior: "auto" }); // Smooth scroll to the section
               }
             }, 0);
           }}
@@ -60,7 +60,7 @@ const CSProject = () => {
 
   return (
     <>
-      {showLoader ? (
+      {false ? (
         <Loading />
       ) : (
         <div
