@@ -8,7 +8,7 @@ const CSProjects = () => {
       id="CSWork"
       className="h-fit min-h-screen w-full flex flex-col items-center justify-center mt-32 pt-20"
     >
-      <div className="sub-title-text-responsive text-center mb-8">CS Work</div>
+      <div className="sub-title-text-responsive text-center mb-3">CS Work</div>
       {projects.map((project) => {
         return (
           <ProjectCard
