@@ -1,7 +1,7 @@
 const PredesignSection = ({ predesignDescription }) => {
   return (
     <section
-      className="animate-fade-in-no-scale h-fit mx-[15px]
+      className="animate-fade-in-no-scale1 h-fit mx-[15px]
   mb-[38px] lg:mb-[90px] md:mb-[68px] sm:mb-[51px]"
       id="Process"
     >

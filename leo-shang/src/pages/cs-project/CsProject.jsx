@@ -26,7 +26,7 @@ const CSProject = () => {
 
   if (!project.isPortfolioDone) {
     return (
-      <div className="animate-fade-in-intro flex justify-center items-center h-screen flex-col font-digifit text-center sub-title-text-responsive">
+      <div className="animate-fade-in-intro1 flex justify-center items-center h-screen flex-col font-digifit text-center sub-title-text-responsive">
         Under Construction
         <div
           className="font-IBMMedium
@@ -63,7 +63,7 @@ const CSProject = () => {
          rounded-[20px]"
       >
         <div
-          className="animate-fade-in-left-intro font-IBMMedium
+          className="animate-fade-in-left-intro1 font-IBMMedium
               ml-[15px]
               mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]
               text-[#525252] hover:text-black cursor-pointer
@@ -83,20 +83,16 @@ const CSProject = () => {
           {"<- Return Home"}
         </div>
         <section
-          className="animate-fade-in-intro flex flex-col justify-center min-h-fit w-full
+          className="animate-fade-in-intro1 flex flex-col justify-center min-h-fit w-full
              h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]"
         >
-          {/* <ImageOptimized
+          <ImageOptimized
             src={project.images[1]}
             hash={project.hashes[1]}
             name={project.name}
             styles={
               "mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
             }
-          /> */}
-          <img
-            src={project.images[1]}
-            className="mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
           />
         </section>
         <RolesStatusText roles={project.roles} status={project.status} />

@@ -4,7 +4,7 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
   const navigate = useNavigate();
   return (
     <section
-      className="animate-fade-in flex flex-row items-center justify-start rounded-[30px] my-[20px] bg-white bg-opacity-[75%] 
+      className="animate-fade-in1 flex flex-row items-center justify-start rounded-[30px] my-[20px] bg-white bg-opacity-[75%] 
                  p-[17px] lg:p-[40px] md:p-[30px] sm:p-[22px]
                  h-[210px] w-[337px] lg:h-[500px] lg:w-[800px] md:h-[375px] md:w-[600px] sm:h-[280px] sm:w-[450px]"
     >

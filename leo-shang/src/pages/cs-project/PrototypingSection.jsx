@@ -4,7 +4,7 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
   return (
     <section
       id="Prototypes"
-      className="animate-fade-in-no-scale flex flex-col justify-center w-fit min-h-fit 
+      className="animate-fade-in-no-scale1 flex flex-col justify-center w-fit min-h-fit 
       h-[255px] lg:h-[600px] md:h-[450px] sm:h-[220px]"
     >
       <div
@@ -14,14 +14,13 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
       >
         Prototyping
       </div>
-      {/* <div className="w-full h-full">
+      <div className="w-full h-full">
         <ImageOptimized
           name={`${name} Prototype`}
           src={prototypeImage}
           hash={hash}
         />
-      </div> */}
-      <img src={prototypeImage} alt={`${name}`} />
+      </div>
     </section>
   );
 };

@@ -11,13 +11,13 @@ const HomePage = () => {
       <div className="flex flex-col relative items-center justify-center">
         <Banner />
         <MobileBanner />
-        <div className="animate-fade-in-intro">
+        <div className="animate-fade-in-intro1">
           <Intro />
         </div>
-        <div className="animate-fade-in">
+        <div className="animate-fade-in1">
           <AboutMe />
         </div>
-        <div className="animate-fade-in">
+        <div className="animate-fade-in1">
           <CSProjects />
         </div>
       </div>

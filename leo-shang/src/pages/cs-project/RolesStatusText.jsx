@@ -4,7 +4,7 @@ const RolesStatusText = ({ roles, status }) => {
       className="flex flex-row justify-between w-full 
   mb-[38px] lg:mb-[100px] md:mb-[78px] sm:mb-[56px]"
     >
-      <div className="animate-fade-in-left-intro flex flex-col w-fit ml-[15px]">
+      <div className="animate-fade-in-left-intro1 flex flex-col w-fit ml-[15px]">
         <div
           className="font-IBMMedium
        text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]"
@@ -21,7 +21,7 @@ const RolesStatusText = ({ roles, status }) => {
         </ul>
       </div>
       <div
-        className="animate-fade-in-right-intro font-IBMMedium text-[#000000] mr-[15px]
+        className="animate-fade-in-right-intro1 font-IBMMedium text-[#000000] mr-[15px]
     text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
       >{`Status: ${status}`}</div>
     </section>
