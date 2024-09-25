@@ -21,12 +21,7 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
           hash={hash}
         />
       </div> */}
-      <img
-        src={prototypeImage}
-        alt={`${name}`}
-        loading="lazy"
-        fetchPriority="low"
-      />
+      <img src={prototypeImage} alt={`${name}`} />
     </section>
   );
 };

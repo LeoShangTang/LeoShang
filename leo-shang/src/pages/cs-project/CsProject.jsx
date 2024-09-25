@@ -86,13 +86,17 @@ const CSProject = () => {
           className="animate-fade-in-intro flex flex-col justify-center min-h-fit w-full
              h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]"
         >
-          <ImageOptimized
+          {/* <ImageOptimized
             src={project.images[1]}
             hash={project.hashes[1]}
             name={project.name}
             styles={
               "mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
             }
+          /> */}
+          <img
+            src={project.images[1]}
+            className="mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
           />
         </section>
         <RolesStatusText roles={project.roles} status={project.status} />
