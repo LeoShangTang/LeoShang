@@ -7,7 +7,7 @@ const PredesignSection = ({ predesignDescription }) => {
     >
       <div
         className="font-IBMMedium 
-    text-[11px] w-[213px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]
+    text-[11px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]
     mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]"
       >
         Predesign
