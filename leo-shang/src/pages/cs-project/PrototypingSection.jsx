@@ -14,10 +14,18 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
       >
         Prototyping
       </div>
-      <ImageOptimized
-        name={`${name} Prototype`}
+      {/* <div className="w-full h-full">
+        <ImageOptimized
+          name={`${name} Prototype`}
+          src={prototypeImage}
+          hash={hash}
+        />
+      </div> */}
+      <img
         src={prototypeImage}
-        hash={hash}
+        alt={`${name}`}
+        loading="lazy"
+        fetchPriority="low"
       />
     </section>
   );
