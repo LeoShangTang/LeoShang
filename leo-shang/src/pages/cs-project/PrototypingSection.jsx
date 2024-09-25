@@ -4,7 +4,7 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
   return (
     <section
       id="Prototypes"
-      className="animate-fade-in-no-scale1 flex flex-col justify-center w-fit"
+      className="animate-fade-in-no-scale1 flex flex-col justify-center w-full"
     >
       <div
         className="font-IBMMedium
