@@ -28,23 +28,23 @@ const MobileBanner = () => {
         }`}
         onClick={toggleMenu} // Close the menu when clicked outside
       >
-        <a
+        {/* <a
           href="#Home"
           className="font-IBMMedium text-white text-[40px] mb-[30px]"
         >
           Home
+        </a> */}
+        <a
+          href="#CSWork"
+          className="font-IBMMedium text-white text-[40px] mb-[30px]"
+        >
+          CS Work
         </a>
         <a
           href="#About"
           className="font-IBMMedium text-white text-[40px] mb-[30px]"
         >
           About
-        </a>
-        <a
-          href="#CSWork"
-          className="font-IBMMedium text-white text-[40px] mb-[30px]"
-        >
-          CS Work
         </a>
         <a
           href="https://drive.google.com/file/d/1tejVYfIfNaG9MtQx6fwCBLotd5OgTMXw/view?usp=sharing"

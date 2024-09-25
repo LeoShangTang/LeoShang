@@ -5,7 +5,7 @@ const Intro = () => {
       className="flex flex-col justify-center items-center w-full h-screen lg:min-h-[700px]"
     >
       <div className="reg-text-responsive">Hi, I'm</div>
-      <div className="title-text-responsive text-center my-[40px] lg:my-[95px] md:my-[72px] sm:my-[54px]">
+      <div className="title-text-responsive text-center my-[27px] lg:my-[65px] md:my-[49px] sm:my-[36px]">
         Leo Shang
       </div>
       <div className="reg-text-responsive w-[70%] lg:w-[1000px] md:w-[700px] sm:w-[500px] text-center">

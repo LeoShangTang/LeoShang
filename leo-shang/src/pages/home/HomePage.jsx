@@ -14,11 +14,11 @@ const HomePage = () => {
         <div className="animate-fade-in-intro1">
           <Intro />
         </div>
-        <div className="animate-fade-in1">
-          <AboutMe />
+        <div className="animate-fade-in1 mb-20">
+          <CSProjects />
         </div>
         <div className="animate-fade-in1">
-          <CSProjects />
+          <AboutMe />
         </div>
       </div>
     </>
