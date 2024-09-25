@@ -1,7 +1,7 @@
 const UserGoalsSection = ({ userGoals }) => {
   return (
     <section
-      className="h-fit mx-[15px]
+      className="animate-fade-in-no-scale h-fit mx-[15px]
   mb-[38px] lg:mb-[90px] md:mb-[68px] sm:mb-[51px]"
     >
       <div

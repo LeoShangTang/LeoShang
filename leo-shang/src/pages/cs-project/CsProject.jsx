@@ -1,23 +1,16 @@
 import { useNavigate, useParams } from "react-router-dom";
 import CsProjects from "./../../assets/CsProjects/CsProjects.json";
-import { useEffect, useState } from "react";
-import Loading from "../../global-components/Loading";
+import { useEffect } from "react";
 import RolesStatusText from "./RolesStatusText";
 import PredesignSection from "./PredesignSection";
 import UserGoalsSection from "./UserGoalsSection";
 import PrototypingSection from "./PrototypingSection";
+import ImageOptimized from "../../global-components/ImageOptimized";
+import "./../../global-components/Animations.css";
 
 const CSProject = () => {
   const { name } = useParams();
   const navigate = useNavigate();
-  // const [showLoader, setShowLoader] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setShowLoader(false);
-  //   }, 500);
-  //   return () => clearTimeout(timer);
-  // }, []);
 
   useEffect(() => {
     window.scrollTo({
@@ -33,7 +26,7 @@ const CSProject = () => {
 
   if (!project.isPortfolioDone) {
     return (
-      <div className=" flex justify-center items-center h-screen flex-col font-digifit text-center sub-title-text-responsive">
+      <div className="animate-fade-in-intro flex justify-center items-center h-screen flex-col font-digifit text-center sub-title-text-responsive">
         Under Construction
         <div
           className="font-IBMMedium
@@ -60,61 +53,67 @@ const CSProject = () => {
 
   return (
     <>
-      {false ? (
-        <Loading />
-      ) : (
-        <div
-          className="flex flex-col relative h-fit justify-center 
+      <div
+        className="flex flex-col relative h-fit justify-center 
          my-[38px] lg:my-[90px] md:my-[68px] sm:my-[51px]
          p-[13px] lg:p-[30px] md:p-[23px] sm:p-[17px]
          w-[422px] lg:w-[1000px] md:w-[750px] sm:w-[563px]
          sm:bg-white sm:bg-opacity-[75%]
          bg-none
          rounded-[20px] "
-        >
-          <div
-            className="font-IBMMedium
+      >
+        <div
+          className="animate-fade-in-left-intro font-IBMMedium
               ml-[15px]
               mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]
               text-[#525252] hover:text-black cursor-pointer
-              text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]"
-            id="Intro"
-            onClick={() => {
-              navigate(`/`);
-              setTimeout(() => {
-                const element = document.getElementById("CSWork");
-                if (element) {
-                  element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the section
-                }
-              }, 0);
-            }}
-          >
-            {"<- Return Home"}
-          </div>
-          <img
-            className="mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
-            src={project.images[1]}
-            alt={`${project.name} Image 1`}
-          />
-          <RolesStatusText roles={project.roles} status={project.status} />
-          {project.predesignDescription && (
-            <PredesignSection
-              predesignDescription={project.predesignDescription}
-            />
-          )}
-
-          {project.userGoals && (
-            <UserGoalsSection userGoals={project.userGoals} />
-          )}
-
-          {project.predesignDescription && (
-            <PrototypingSection
-              name={project.name}
-              prototypeImage={project.images[2]}
-            />
-          )}
+              text-[8.4px] lg:text-[20px] md:text-[15px] sm:text-[11px]
+              h-full w-full"
+          id="Intro"
+          onClick={() => {
+            navigate(`/`);
+            setTimeout(() => {
+              const element = document.getElementById("CSWork");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" }); // Smooth scroll to the section
+              }
+            }, 0);
+          }}
+        >
+          {"<- Return Home"}
         </div>
-      )}
+        <section
+          className="animate-fade-in-intro flex flex-col justify-center min-h-fit w-full
+             h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]"
+        >
+          <ImageOptimized
+            src={project.images[1]}
+            hash={project.hashes[1]}
+            name={project.name}
+            styles={
+              "mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px] rounded-[10px] shadow-md"
+            }
+          />
+        </section>
+        <RolesStatusText roles={project.roles} status={project.status} />
+        {project.predesignDescription && (
+          <PredesignSection
+            predesignDescription={project.predesignDescription}
+          />
+        )}
+
+        {project.userGoals && (
+          <UserGoalsSection userGoals={project.userGoals} />
+        )}
+
+        {project.predesignDescription && (
+          <PrototypingSection
+            name={project.name}
+            prototypeImage={project.images[2]}
+            hash={project.hashes[2]}
+          />
+        )}
+      </div>
     </>
   );
 };

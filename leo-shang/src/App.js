@@ -20,6 +20,7 @@ const App = () => {
         <div
           className="fixed inset-0 z-[-2] bg-cover bg-center opacity-95"
           style={{ backgroundImage: `url(${bg2})` }}
+          role="presentation"
         />
       </div>
     </Router>
