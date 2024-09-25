@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import bg2 from "./assets/media/BG2.jpg";
 import Loading from "./global-components/Loading";
+import { Analytics } from "@vercel/analytics/react";
 
 const HomePage = lazy(() => import("./pages/home/HomePage"));
 const CSProject = lazy(() => import("./pages/cs-project/CsProject"));
@@ -9,6 +10,7 @@ const CSProject = lazy(() => import("./pages/cs-project/CsProject"));
 const App = () => {
   return (
     <Router>
+      <Analytics />
       <div className="flex flex-col relative items-center justify-center">
         <Suspense fallback={<Loading />}>
           <Routes>
