@@ -18,7 +18,7 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
           </div>
           <div className="w-[90%]">
             <div
-              className="font-IBMMedium w-fit bg-[#6FC7FE] rounded-full 
+              className="font-IBMMedium w-fit bg-[#D9D9D9] rounded-full 
                           my-[7px] lg:my-[16px] md:my-[12px] sm:my-[9px]
                           px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]
                           text-[7px] lg:text-[13px] md:text-[10px] sm:text-[9px]"
@@ -43,7 +43,7 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
         </div>
 
         <button
-          className="flex justify-center items-center font-IBMRegular border-none bg-black text-white ml-0 rounded-[10px]
+          className="flex justify-center items-center font-IBMRegular border-none bg-[#1a1a1a] text-white hover:text-[#e9e9e9] hover:bg-black ml-0 rounded-[10px]
                     min-w-fit
                      w-[65px] h-[20px] lg:w-[155px] lg:h-[45px] md:w-[116px] md:h-[34px] sm:w-[87px] sm:h-[26px]
                      text-[8px] lg:text-[18px] md:text-[13px] sm:text-[10px]"

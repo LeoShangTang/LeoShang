@@ -52,13 +52,12 @@ const CSProject = () => {
   }
 
   return (
-    <>
+    <div className="flex h-fit justify-center items-center w-screen">
       <div
-        className="flex flex-col relative  h-fit justify-center 
-         my-[38px] lg:my-[90px] md:my-[68px] sm:my-[51px]
+        className="my-[38px] lg:my-[90px] md:my-[68px] sm:my-[51px]
          p-[13px] lg:p-[30px] md:p-[23px] sm:p-[17px]
-         w-screen xs:w-[422px] lg:w-[1000px] md:w-[750px] sm:w-[563px]
-         sm:bg-white sm:bg-opacity-[75%]
+         w-[400px] lg:w-[1000px] md:w-[750px] sm:w-[563px]
+         sm:bg-white sm:bg-opacity-[75%] 
          bg-none
          rounded-[20px]"
       >
@@ -114,7 +113,7 @@ const CSProject = () => {
           />
         )}
       </div>
-    </>
+    </div>
   );
 };
 
