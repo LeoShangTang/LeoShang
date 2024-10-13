@@ -16,14 +16,16 @@ const ProjectCard = ({ project, viewWork }) => {
             </div>
           )}
           <div className="w-[90%]">
-            <div
-              className="font-IBMMedium w-fit bg-[#D9D9D9] rounded-full 
+            {project.projectType && (
+              <div
+                className="font-IBMMedium w-fit bg-[#D9D9D9] rounded-full 
                           my-[7px] lg:my-[16px] md:my-[12px] sm:my-[9px]
                           px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]
                           text-[7px] lg:text-[13px] md:text-[10px] sm:text-[9px]"
-            >
-              {project.projectType}
-            </div>
+              >
+                {project.projectType}
+              </div>
+            )}
             <div
               className="flex flex-wrap w-full 
                             gap-[7px] lg:gap-[16px] md:gap-[12px] sm:gap-[9px]

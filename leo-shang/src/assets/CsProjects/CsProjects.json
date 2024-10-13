@@ -59,5 +59,16 @@
             "roles":["Front End Dev"],
             "predesignDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
         }
+    ],
+    "DesignWork": [
+        {   "id": 1,
+            "name": "BOLT UBC",
+            "isPortfolioDone": false,
+            "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png"],
+            "hashes": ["eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX"],
+            "projectType": "Graphic Design",
+            "tags": ["Figma", "Photoshop", "Procreate"]
+        }
     ]
 }
+   
