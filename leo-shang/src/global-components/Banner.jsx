@@ -30,13 +30,13 @@ const Banner = () => {
         <a href="#CSWork" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           CS Work
         </a>
+        <a href="#DesignLab" className="font-IBMMedium px-2 lg:px-6 md:px-4">
+          Design Lab
+        </a>
         <a href="#About" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           About
         </a>
-        {/* <a href="#DesignWork" className="font-IBMMedium px-2 lg:px-6 md:px-4">
-          Design Lab
-        </a>
-        <a href="#Contact" className="font-IBMMedium px-2 lg:px-6 md:px-4">
+        {/* <a href="#Contact" className="font-IBMMedium px-2 lg:px-6 md:px-4">
           Contact
         </a> */}
         <a

@@ -4,6 +4,7 @@ import CSProjects from "./CSProjects";
 import Intro from "./Intro";
 import MobileBanner from "../../global-components/MobileBanner";
 import "./../../global-components/Animations.css";
+import DesignLab from "./DesignLab";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,9 @@ const HomePage = () => {
         </div>
         <div className="animate-fade-in1 mb-20">
           <CSProjects />
+        </div>
+        <div className="animate-fade-in1 mb-20">
+          <DesignLab />
         </div>
         <div className="animate-fade-in1">
           <AboutMe />

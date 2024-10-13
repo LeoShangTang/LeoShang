@@ -1,8 +1,11 @@
 import CsProjects from "../../assets/CsProjects/CsProjects.json";
 import ProjectCard from "./ProjectCard";
+import { useNavigate } from "react-router-dom";
 
 const CSProjects = () => {
   const projects = CsProjects.CSProjects;
+  const navigate = useNavigate();
+
   return (
     <section
       id="CSWork"
@@ -12,12 +15,10 @@ const CSProjects = () => {
       {projects.map((project) => {
         return (
           <ProjectCard
-            key={project.id}
-            name={project.name}
-            timestamp={project.timestamp}
-            images={project.images}
-            projectType={project.projectType}
-            tags={project.tags}
+            project={project}
+            viewWork={() => {
+              navigate(`/project/${project.name}`);
+            }}
           />
         );
       })}

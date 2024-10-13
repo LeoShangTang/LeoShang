@@ -1,7 +1,4 @@
-import { useNavigate } from "react-router-dom";
-
-const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
-  const navigate = useNavigate();
+const ProjectCard = ({ project, viewWork }) => {
   return (
     <section
       className="animate-fade-in1 flex flex-row items-center justify-start rounded-[30px] my-[20px] bg-white bg-opacity-[75%] 
@@ -11,11 +8,13 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
       <div className="flex flex-col h-full w-[60%] justify-between">
         <div>
           <div className="font-IBMBold h-fit text-[14px] lg:text-[34px] md:text-[25px] sm:text-[19px]">
-            {name}
+            {project.name}
           </div>
-          <div className="font-IBMMedium text-[8px] lg:text-[18px] md:text-[13px] sm:text-[10px]">
-            {timestamp}
-          </div>
+          {project.timestamp && (
+            <div className="font-IBMMedium text-[8px] lg:text-[18px] md:text-[13px] sm:text-[10px]">
+              {project.timestamp}
+            </div>
+          )}
           <div className="w-[90%]">
             <div
               className="font-IBMMedium w-fit bg-[#D9D9D9] rounded-full 
@@ -23,21 +22,30 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
                           px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]
                           text-[7px] lg:text-[13px] md:text-[10px] sm:text-[9px]"
             >
-              {projectType}
+              {project.projectType}
             </div>
             <div
               className="flex flex-wrap w-full 
                             gap-[7px] lg:gap-[16px] md:gap-[12px] sm:gap-[9px]
                             text-[7px] lg:text-[13px] md:text-[10px] sm:text-[9px]"
             >
-              {tags.map((tag) => (
-                <div
-                  className="font-IBMMedium flex items-center justify-center w-fit bg-[#D9D9D9] rounded-full
+              {project.tags &&
+                project.tags.map((tag) => (
+                  <div
+                    className="font-IBMMedium flex items-center justify-center w-fit bg-[#D9D9D9] rounded-full
                              px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]"
+                  >
+                    {tag}
+                  </div>
+                ))}
+              {project.description && (
+                <div
+                  className="font-IBMMedium flex items-center justify-center w-fit 
+                           px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]"
                 >
-                  {tag}
+                  {project.description}
                 </div>
-              ))}
+              )}
             </div>
           </div>
         </div>
@@ -47,16 +55,14 @@ const ProjectCard = ({ id, name, timestamp, images, projectType, tags }) => {
                     min-w-fit
                      w-[65px] h-[20px] lg:w-[155px] lg:h-[45px] md:w-[116px] md:h-[34px] sm:w-[87px] sm:h-[26px]
                      text-[8px] lg:text-[18px] md:text-[13px] sm:text-[10px]"
-          onClick={() => {
-            navigate(`/project/${name}`);
-          }}
+          onClick={viewWork}
         >
           View Work
         </button>
       </div>
 
       <div className="flex flex-col h-full w-fit justify-center items-center">
-        <img src={images[0]} alt={`${name} preview`} />
+        <img src={project.images[0]} alt={`${project.name} preview`} />
       </div>
     </section>
   );
