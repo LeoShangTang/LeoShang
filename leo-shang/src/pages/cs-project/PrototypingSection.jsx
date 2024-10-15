@@ -13,11 +13,13 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
       >
         Prototyping
       </div>
-      <ImageOptimized
-        name={`${name} Prototype`}
-        src={prototypeImage}
-        hash={hash}
-      />
+      <div className="min-h-fit h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]">
+        <ImageOptimized
+          name={`${name} Prototype`}
+          src={prototypeImage}
+          hash={hash}
+        />
+      </div>
     </section>
   );
 };

@@ -1,5 +1,5 @@
 import CsProjects from "../../assets/CsProjects/CsProjects.json";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../../global-components/ProjectCard";
 import { useNavigate } from "react-router-dom";
 
 const CSProjects = () => {

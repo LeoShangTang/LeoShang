@@ -6,6 +6,9 @@ import { Analytics } from "@vercel/analytics/react";
 
 const HomePage = lazy(() => import("./pages/home/HomePage"));
 const CSProject = lazy(() => import("./pages/cs-project/CsProject"));
+const DesignLabProject = lazy(() =>
+  import("./pages/design-lab-project/DesignLabProject")
+);
 
 const App = () => {
   return (
@@ -16,7 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/cswork/:name" element={<CSProject />} />
-            <Route path="/designlab/:name" element={<CSProject />} />
+            <Route path="/designlab/:name" element={<DesignLabProject />} />
           </Routes>
         </Suspense>
         <div className="fixed inset-0 z-[-1] bg-cover bg-center bg-white bg-opacity-75" />
