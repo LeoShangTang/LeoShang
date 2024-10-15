@@ -20,9 +20,11 @@ const CSProject = () => {
     }); // Scroll to top on component mount
   }, []);
 
-  const project = CsProjects.CSProjects.find(
-    (project) => project.name === name
-  );
+  let project = CsProjects.CSProjects.find((project) => project.name === name);
+
+  if (!project) {
+    project = CsProjects.DesignWork.find((project) => project.name === name);
+  }
 
   if (!project.isPortfolioDone) {
     return (

@@ -62,12 +62,11 @@
     ],
     "DesignWork": [
         {   "id": 1,
-            "name": "BOLT UBC",
+            "name": "BOLT UBC Media",
             "isPortfolioDone": false,
-            "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png"],
+            "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc1.png"],
             "hashes": ["eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX"],
-            "projectType": "Graphic Design",
-            "tags": ["Figma", "Photoshop", "Procreate"]
+            "description":"This section contains the graphics I have developed for my club, BOLT UBC, not including UI designs"
         }
     ]
 }

@@ -17,7 +17,7 @@ const CSProjects = () => {
           <ProjectCard
             project={project}
             viewWork={() => {
-              navigate(`/project/${project.name}`);
+              navigate(`/cswork/${project.name}`);
             }}
           />
         );

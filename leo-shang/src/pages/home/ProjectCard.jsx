@@ -40,17 +40,14 @@ const ProjectCard = ({ project, viewWork }) => {
                     {tag}
                   </div>
                 ))}
-              {project.description && (
-                <div
-                  className="font-IBMMedium flex items-center justify-center w-fit 
-                           px-[6.75px] py-[3.5px] lg:px-[16px] lg:py-[8px] md:px-[12px] md:py-[6px] sm:px-[9px] sm:py-[4.5px]"
-                >
-                  {project.description}
-                </div>
-              )}
             </div>
           </div>
         </div>
+        {project.description && (
+          <div className="font-IBMMedium flex items-center justify-center w-[80%] text-[7px] lg:text-[16px] md:text-[12px] sm:text-[9px]">
+            {project.description}
+          </div>
+        )}
 
         <button
           className="flex justify-center items-center font-IBMRegular border-none bg-[#1a1a1a] text-white hover:text-[#e9e9e9] hover:bg-black ml-0 rounded-[10px]

@@ -15,7 +15,8 @@ const App = () => {
         <Suspense fallback={<Loading />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/project/:name" element={<CSProject />} />
+            <Route path="/cswork/:name" element={<CSProject />} />
+            <Route path="/designlab/:name" element={<CSProject />} />
           </Routes>
         </Suspense>
         <div className="fixed inset-0 z-[-1] bg-cover bg-center bg-white bg-opacity-75" />
