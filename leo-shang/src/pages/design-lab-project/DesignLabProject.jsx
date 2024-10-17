@@ -15,13 +15,15 @@ const DesignLabProject = () => {
              h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px] mt-[5%]"
       >
         {project.images.slice(1).map((image, index) => (
-          <ImageOptimized
-            key={index}
-            src={image}
-            hash={project.hashes[index + 1]} // Offset the index to match the hashes
-            name={project.name}
-            styles={"mb-[2%] rounded-[30px] bg-white w-[40%] mx-[1%] h-fit"}
-          />
+          <div className="w-[40%] mx-[1%] mb-[2%] min-h-[300px]">
+            <ImageOptimized
+              key={index}
+              src={image}
+              hash={project.hashes[index + 1]}
+              name={project.name}
+              styles={"rounded-[30px] bg-white w-full h-fit"}
+            />
+          </div>
         ))}
       </section>
     </ProjectPage>
