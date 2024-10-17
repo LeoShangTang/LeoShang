@@ -21,7 +21,9 @@ const ImageOptimized = ({ name, src, hash, styles, animationClass }) => {
           src={src}
           alt={`${name}`}
           loading="lazy"
-          fetchPriority="low"
+          decoding="async"
+          fetchPriority="high"
+          sizes="100%"
         />
       )}
       {!imageLoaded && <Loading />}

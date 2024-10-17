@@ -31,13 +31,13 @@ const CSProject = () => {
         />
       </section>
       <RolesStatusText roles={project.roles} status={project.status} />
-      {project.predesignDescription && (
-        <PredesignSection predesignDescription={project.predesignDescription} />
+      {project.detailedDescription && (
+        <PredesignSection predesignDescription={project.detailedDescription} />
       )}
 
       {project.userGoals && <UserGoalsSection userGoals={project.userGoals} />}
 
-      {project.predesignDescription && (
+      {project.detailedDescription && (
         <PrototypingSection
           name={project.name}
           prototypeImage={project.images[2]}

@@ -11,7 +11,7 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
       mb-[8.4px] lg:mb-[20px] md:mb-[15px] sm:mb-[11px]
     text-[11px] h-fit lg:text-[24px] md:text-[18px] sm:text-[13px]  ml-[10px]"
       >
-        Prototyping
+        Work
       </div>
       <div className="min-h-fit h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]">
         <ImageOptimized
