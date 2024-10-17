@@ -41,6 +41,12 @@ const MobileBanner = () => {
           CS Work
         </a>
         <a
+          href="#DesignLab"
+          className="font-IBMMedium text-white text-[40px] mb-[30px]"
+        >
+          Design Lab
+        </a>
+        <a
           href="#About"
           className="font-IBMMedium text-white text-[40px] mb-[30px]"
         >
