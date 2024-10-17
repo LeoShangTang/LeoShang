@@ -58,6 +58,19 @@
             "status": "Finished",
             "roles":["Front End Dev"],
             "detailedDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
+        },
+        {
+            "id": 4,
+            "name": "Pomodoro Timer",
+            "isPortfolioDone": true,
+            "timestamp": "Jan 2023 - May. 2023",
+            "images": ["/ProjectImages/PomodoroTimerJava/PomodoroTimerMockup.png", "/ProjectImages/PomodoroTimerJava/PomodoroTimer1.png", "/ProjectImages/PomodoroTimerJava/PomodoroTimer2.png"],
+            "hashes": ["eRLz{mxu~pWBxu9FM{-;%May_3D%R*-;Rj_3aeIUoft7t7-;RjIURj", "e02~S{RP00yD_M.8adDio}%fW.oLjGR*ozs:kCR*V@s;MdkWyCVsRP", "eZK-nHRjM{ozof00t7xuWBWBD%R*RPofof~qoeofayayfQfQj[fkay"],
+            "projectType": "QA + OOP",
+            "tags": ["Java", "Jswing", "JUnit"],
+            "status": "Finished",
+            "roles":["QA"],
+            "detailedDescription": "I developed a Pomodoro timer application, which served as my first deep dive into object-oriented programming. This project involved creating classes for tasks, timers, and a to-do list, each with specific responsibilities, enhancing code organization and scalability. I learned how to apply OOP principles like inheritance and polymorphism, allowing for the timer and to-do list features to interact smoothly. Furthermore, I gained valuable insights into testing by implementing JUnit tests to validate timer functionality, ensuring the application worked effectively under various scenarios, marking a significant step in my development journey."
         }
     ],
     "DesignWork": [
@@ -65,7 +78,7 @@
             "name": "BOLT UBC",
             "isPortfolioDone": true,
             "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc1.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc2.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc3.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc4.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc5.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc6.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc7.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc8.png"],
-            "hashes": ["eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX"],
+            "hashes": ["eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX"],
             "description":"This section contains the graphics I have developed for my club, BOLT UBC, not including UI designs"
         }
     ]
