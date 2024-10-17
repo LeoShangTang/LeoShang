@@ -11,17 +11,17 @@ const DesignLabProject = () => {
   return (
     <ProjectPage scrollTo={"DesignLab"} project={project}>
       <section
-        className="animate-fade-in-intro1 flex flex-row flex-wrap justify-center min-h-fit w-full
-             h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px] mt-[5%]"
+        className="animate-fade-in-intro1 flex flex-row flex-wrap justify-center h-fit w-full
+             lg:min-h-[530px] md:min-h-[400px] sm:min-h-[300px] mt-[5%]"
       >
         {project.images.slice(1).map((image, index) => (
-          <div className="w-[40%] mx-[1%] mb-[2%] min-h-[300px]">
+          <div className="w-[40%] mx-[1%] mb-[2%] lg:min-h-[300px] md:min-h-[225px] sm:min-h-[167px]">
             <ImageOptimized
               key={index}
               src={image}
               hash={project.hashes[index + 1]}
               name={project.name}
-              styles={"rounded-[30px] bg-white w-full h-fit"}
+              styles={"rounded-lg bg-white w-full h-fit"}
             />
           </div>
         ))}

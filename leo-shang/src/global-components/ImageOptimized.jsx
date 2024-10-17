@@ -28,12 +28,12 @@ const ImageOptimized = ({ name, src, hash, styles, animationClass }) => {
       )}
       {!imageLoaded && (
         <Blurhash
-          hash={hash} // Use the provided blurhash string
-          width={"100%"} // Set the width and height as needed
+          hash={hash}
+          width={"100%"}
           height={"100%"}
-          resolutionX={32} // Optional: increase for higher resolution
-          resolutionY={32} // Optional: increase for higher resolution
-          punch={1} // Optional: controls the intensity of the blur effect
+          resolutionX={32}
+          resolutionY={32}
+          punch={1}
         />
       )}
     </>

@@ -13,7 +13,7 @@ const PrototypingSection = ({ name, prototypeImage, hash }) => {
       >
         Work
       </div>
-      <div className="min-h-fit h-[225px] lg:h-[530px] md:h-[400px] sm:h-[300px]">
+      <div className="h-fit lg:min-h-[530px] md:min-h-[400px] sm:min-h-[300px]">
         <ImageOptimized
           name={`${name} Prototype`}
           src={prototypeImage}
