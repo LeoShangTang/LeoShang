@@ -11,7 +11,7 @@
             "tags": ["TypeScript", "React", "CSS", "Figma"],
             "status": "In-progress",
             "roles":["Lead UI Designer", "Front End Dev"],
-            "predesignDescription": "For this project, I led the comprehensive redesign of the BOLT UBC website. This endeavor required a detailed evaluation of the existing site’s user interface and user experience design. To ensure a user-centered approach, I conducted in-depth research into the current state of the site and its usability, focusing on understanding the diverse needs and preferences of the user base. Our primary user groups were identified as non-club member UBC students, existing club members, and club sponsors. This research was critical in guiding the design process, ensuring that the new website would effectively meet the needs of both these groups by enhancing usability, accessibility, and overall user satisfaction.",
+            "detailedDescription": "For this project, I led the comprehensive redesign of the BOLT UBC website. This endeavor required a detailed evaluation of the existing site’s user interface and user experience design. To ensure a user-centered approach, I conducted in-depth research into the current state of the site and its usability, focusing on understanding the diverse needs and preferences of the user base. Our primary user groups were identified as non-club member UBC students, existing club members, and club sponsors. This research was critical in guiding the design process, ensuring that the new website would effectively meet the needs of both these groups by enhancing usability, accessibility, and overall user satisfaction.",
             "userGoals": [{
                 "title": "Enhanced Navigation and Usability",
                 "goal": "Users need to easily find information about BOLT UBC events, membership, contact info, and club activities",
@@ -34,7 +34,7 @@
             "status": "In-progress",
             "tags": ["TypeScript", "React", "PostGresSQL", "Figma", "Next.js", "Tailwind"],
             "roles":["Lead UI Designer", "Front End Dev", "Back End DB Design"],
-            "predesignDescription": "Before designing, we needed to gain an understanding of the potential users for the application, as well as their user goals. The target users we converged on were university students, including both commuters and students living on campus. At the time of starting this project, our team consisted of two students, meaning that we already had some context of the student mindset going into this project. However, it was still essential to discover the thoughts and contexts of others, so we reached out to friends at UBC and other schools to gather diverse insights.",
+            "detailedDescription": "Before designing, we needed to gain an understanding of the potential users for the application, as well as their user goals. The target users we converged on were university students, including both commuters and students living on campus. At the time of starting this project, our team consisted of two students, meaning that we already had some context of the student mindset going into this project. However, it was still essential to discover the thoughts and contexts of others, so we reached out to friends at UBC and other schools to gather diverse insights.",
             "userGoals": [{
                 "title": "Efficiency in Study Space Selection",
                 "goal": "Students want to quickly and easily find available and comfortable study spaces that match their preferences, especially during busy periods like exams.",
@@ -57,14 +57,14 @@
             "tags": ["TypeScript", "React", "Material UI", "CSS"],
             "status": "Finished",
             "roles":["Front End Dev"],
-            "predesignDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
+            "detailedDescription": "This project was developed to explore and enhance skills in React, with a focus on the store-based management system in React Redux. It was also built using TypeScript instead of JavaScript to prevent passing unexpected data types. The user interface was kept simple, based on hand-drawn sketches during the design process."
         }
     ],
     "DesignWork": [
         {   "id": 1,
             "name": "BOLT UBC",
             "isPortfolioDone": true,
-            "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc1.png"],
+            "images": ["/ProjectImages/BoltUbcGraphicDesign/BOLTUbcMockup.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc1.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc2.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc3.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc4.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc5.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc6.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc7.png", "/ProjectImages/BoltUbcGraphicDesign/BOLTUbc8.png"],
             "hashes": ["eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX", "eHNAhybc~qnhad%Mof%MRjWBWCoJIUR-xu_NWBDit7WB-pWBoLt7WX"],
             "description":"This section contains the graphics I have developed for my club, BOLT UBC, not including UI designs"
         }
