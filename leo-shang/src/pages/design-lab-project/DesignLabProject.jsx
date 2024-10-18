@@ -21,7 +21,7 @@ const DesignLabProject = () => {
               src={image}
               hash={project.hashes[index + 1]}
               name={project.name}
-              styles={"rounded-lg bg-white w-full h-fit"}
+              styles={"rounded-lg bg-white w-full h-auto"}
             />
           </div>
         ))}
