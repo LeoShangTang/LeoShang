@@ -15,7 +15,7 @@ const DesignLabProject = () => {
              lg:min-h-[530px] md:min-h-[400px] sm:min-h-[300px] mt-[5%]"
       >
         {project.images.slice(1).map((image, index) => (
-          <div className="w-[40%] mx-[1%] mb-[2%] lg:min-h-[300px] md:min-h-[225px] sm:min-h-[167px]">
+          <div className="w-[40%] mx-[1%] mb-[2%]">
             <ImageOptimized
               key={index}
               src={image}
